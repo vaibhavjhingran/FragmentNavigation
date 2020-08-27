@@ -45,6 +45,12 @@
             android:id="@+id/action_gameWonFragment_pop_including_gameFragment"
             app:popUpTo="@id/gameFragment"
             app:popUpToInclusive="true" />
+        <argument
+            android:name="numCorrect"
+            app:argType="integer" />
+        <argument
+            android:name="numQuestions"
+            app:argType="integer" />
     </fragment>
     <fragment
         android:id="@+id/aboutFragment"
